@@ -1,0 +1,21 @@
+{
+  "name": "type-file-extension",
+  "version": "1.3.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test"
+  },
+  "keywords": [
+    "file"
+  ],
+  "repository": {
+    "url": "https://github.com/zplusfour/type-file-extension"
+  },
+  "homepage": "https://github.com/zplusfour/type-file-extension#readme",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "atob": "^2.1.2"
+  }
+}
