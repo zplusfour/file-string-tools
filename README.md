@@ -11,5 +11,5 @@ $ npm install type-file-extension
 
 ```js
 const typeFileExtension = require('type-file-extension');
-console.log(typeFileExtension("hello.txt")); // Hi
+console.log(typeFileExtension("hello.txt")); // hello
 ```
