@@ -1,16 +1,16 @@
-# file-tools npm package&nbsp; [![npm version](https://badge.fury.io/js/file-tools.svg)](https://badge.fury.io/js/type-file-extension)
+# file-string-tools npm package&nbsp; [![npm version](https://badge.fury.io/js/file-string-tools.svg)](https://badge.fury.io/js/type-file-extension)
 
 ## Usage
-First, Install the `file-tools`, type in the terminal:
+First, Install the `file-string-tools`, type in the terminal:
 
 ```sh
-$ npm install file-tools
+$ npm install file-string-tools
 ```
 
 ## Example
 
 ```js
-const FileTOOLS = require('file-tools');
+const FileTOOLS = require('file-string-tools');
 const tool = new FileTOOLS();
 
 console.log(tools.ext("hello.txt")) // .txt
