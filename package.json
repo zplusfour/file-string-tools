@@ -1,6 +1,6 @@
 {
-  "name": "type-file-extension",
-  "version": "1.3.0",
+  "name": "file-string-tools",
+  "version": "1.5.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,9 +10,9 @@
     "file"
   ],
   "repository": {
-    "url": "https://github.com/zplusfour/type-file-extension"
+    "url": "https://github.com/zplusfour/file-string-tools"
   },
-  "homepage": "https://github.com/zplusfour/type-file-extension#readme",
+  "homepage": "https://github.com/zplusfour/file-string-tools#readme",
   "author": "",
   "license": "ISC",
   "dependencies": {

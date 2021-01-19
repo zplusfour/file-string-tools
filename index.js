@@ -1,16 +1,24 @@
 /**
- * Type-File-Extension npm package
+ * File-Tols npm package
  */
 
 'use strict';
+const path = require('path');
+class FileTools {
+  /**
+   * @param fileString {string}
+   */
+  constructor(fileString) {
+    this.fileString = fileString;
+  }
 
-/**
- * Gets ONLY the file extension of a file.
- * @param filename {string}
- * @returns {string}
- */
-function typeFileExtension(filename) {
-  return filename.split('.').slice(0, -1).join('.');
+  ext() {
+    return this.fileString.split('.').slice(0, -1).join('.');
+  }
+
+  name() {
+    return path.extname(this.fileString);
+  }
 }
 
-module.exports = typeFileExtension;
+module.exports = FileTools;
